@@ -6,14 +6,11 @@ import './App.css'
 function App() {
 
   return (
-    <>
-      <h1>
-        Example H1
-      </h1>
-      <h2>
-        Example H2
-      </h2>
-    </>
+      <div className="container">
+        <svg>
+          <circle cx="25" cy="75" r="20" stroke="green" strokeWidth="2" />
+        </svg>
+      </div>
   )
 }
 
